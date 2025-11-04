@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#contador {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+#menos:hover {
+background-color: rgb(255, 72, 0);
+}
+#reset {
+  background-color: #ff9800;
+  color: #fff;
+  width: 100px; /* Ancho del botón */
+}
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}

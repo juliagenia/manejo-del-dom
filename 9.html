@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabla Dinámica con Orden</title>
+  <link rel="stylesheet" href="9.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Agregar Personas</h1>
+    <form id="person-form">
+      <input type="text" id="name" placeholder="Nombre" required />
+      <input type="number" id="age" placeholder="Edad" required />
+      <button type="submit">Agregar</button>
+    </form>
+
+    <table id="person-table">
+      <thead>
+        <tr>
+          <th data-key="name">Nombre ▲▼</th>
+          <th data-key="age">Edad ▲▼</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script src="9.js"></script>
+</body>
+</html>

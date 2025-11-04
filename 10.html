@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Kanban</title>
+  <link rel="stylesheet" href="10.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Mini Kanban</h1>
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Nueva tarea..." required />
+      <button type="submit">Agregar</button>
+    </form>
+
+    <div class="board">
+      <div class="column" data-status="pendiente">
+        <h2>Pendiente</h2>
+        <div class="dropzone" id="pendiente"></div>
+      </div>
+      <div class="column" data-status="progreso">
+        <h2>En progreso</h2>
+        <div class="dropzone" id="progreso"></div>
+      </div>
+      <div class="column" data-status="hecho">
+        <h2>Hecho</h2>
+        <div class="dropzone" id="hecho"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="10.js"></script>
+</body>
+</html>

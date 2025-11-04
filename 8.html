@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Validación en Vivo</title>
+  <link rel="stylesheet" href="8.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Formulario de Contacto</h1>
+    <form id="contact-form" novalidate>
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" />
+        <small class="error" id="name-error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+        <small class="error" id="email-error"></small>
+      </div>
+
+      <button type="submit">Enviar</button>
+      <p id="form-message"></p>
+    </form>
+  </main>
+
+  <script src="8.js"></script>
+</body>
+</html>

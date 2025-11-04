@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pestañas con data-panel</title>
+  <link rel="stylesheet" href="6.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Sistema de Pestañas</h1>
+    <div class="tabs">
+      <button class="tab active" data-panel="panel1">Panel 1</button>
+      <button class="tab" data-panel="panel2">Panel 2</button>
+      <button class="tab" data-panel="panel3">Panel 3</button>
+    </div>
+
+    <div class="panels">
+      <div id="panel1" class="panel visible">
+        <p>Contenido del Panel 1</p>
+      </div>
+      <div id="panel2" class="panel">
+        <p>Contenido del Panel 2</p>
+      </div>
+      <div id="panel3" class="panel">
+        <p>Contenido del Panel 3</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="6.js"></script>
+</body>
+</html>
